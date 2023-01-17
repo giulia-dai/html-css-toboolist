@@ -30,8 +30,8 @@ main{
     margin: auto;
     background-color: white;
     margin-top: 30px;
-    padding-top: 15px;
-   border-radius: 5%;
+    padding: 15px 0 30px 0 ;
+   border-radius: 1%;
 }
 
 #blue-button{
@@ -47,6 +47,7 @@ main{
     width: 100px;
     height: 30px;
     border-radius: 10%;
+    border-color: rgb(218, 222, 226);
 }
 
 hr{
@@ -57,6 +58,7 @@ hr{
 section{
     margin-left: 50px;
     margin-top: 20px;
+
 }
 
 h2::before{
@@ -67,13 +69,26 @@ h2::before{
 .task-check::before{
     content: '\2713';
     color: rgb(49, 186, 162) ;
-    border-radius: 100%;
+    border-radius: 100px;
     border: 1px solid rgb(49, 186, 162) ;
+    width: 50px;
+    height: 50px; 
+}
+
+.task-check{
+    margin-top: 10px;
+}
+
+.task-cross::before{
+    content: '\2715';
+    color: red ;
+    border-radius: 100%;
+    border: 1px solid red;
     width: 50px;
     height: 50px;
 }
 
-.task-check{
+.task-cross{
     margin-top: 10px;
 }
 
@@ -83,10 +98,10 @@ h2::before{
   color: white;
 }
 
-#editorial{
+.editorial{
     background-color: rgb(56, 170, 255);
     margin-left: 10px;
-    border-radius: 30%;
+    border-radius: 100px;
     width: 90px;
     height: 20px;
     text-align: center;
@@ -95,8 +110,44 @@ h2::before{
 #Q1-goals{
     background-color: rgb(170,93,230);
     margin-left: 10px;
-    border-radius: 30%;
+    border-radius: 100px;
     width: 90px;
     height: 20px;
     text-align: center;
 }
+
+#recruiting{
+    background-color: rgb(42,198,171);
+    margin-left: 10px;
+    border-radius: 100px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+}
+
+#mobile {
+background-color: rgb(249,155,0);
+margin-left: 10px;
+border-radius: 100px;
+width: 90px;
+height: 20px;
+text-align: center;
+}
+
+#website{
+background-color: rgb(236,73,157);
+border-radius: 100px;
+width: 90px;
+height: 20px;
+text-align: center;
+}
+
+#sales{
+    background-color: rgb(162,209,17);
+    border-radius: 100px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+}
+
+
