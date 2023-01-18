@@ -73,6 +73,7 @@ h2::before{
     border: 1px solid rgb(49, 186, 162) ;
     width: 50px;
     height: 50px; 
+    padding: 0 4px 0 4px;
 }
 
 .task-check{
@@ -86,6 +87,7 @@ h2::before{
     border: 1px solid red;
     width: 50px;
     height: 50px;
+    padding: 0 4px 0 4px;
 }
 
 .task-cross{
